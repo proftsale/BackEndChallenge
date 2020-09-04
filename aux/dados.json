@@ -1,0 +1,1055 @@
+[
+  {
+    "data": "02/01/2020",
+    "codigo": 30903,
+    "cpf": "06556384909",
+    "nome": "Vendedor 1",
+    "quantidade_pecas": 16.00,
+    "quantidade_vendas": 5,
+    "valor_vendas": 1058.40
+  },
+  {
+    "data": "02/01/2020",
+    "codigo": 39894,
+    "cpf": "00703571966",
+    "nome": "Vendedor 2",
+    "quantidade_pecas": 9.00,
+    "quantidade_vendas": 7,
+    "valor_vendas": 691.30
+  },
+  {
+    "data": "03/01/2020",
+    "codigo": 30903,
+    "cpf": "06556384909",
+    "nome": "Vendedor 1",
+    "quantidade_pecas": 8.00,
+    "quantidade_vendas": 6,
+    "valor_vendas": 439.20
+  },
+  {
+    "data": "03/01/2020",
+    "codigo": 39894,
+    "cpf": "00703571966",
+    "nome": "Vendedor 2",
+    "quantidade_pecas": 5.00,
+    "quantidade_vendas": 3,
+    "valor_vendas": 286.59
+  },
+  {
+    "data": "03/01/2020",
+    "codigo": 40173,
+    "cpf": "09862403977",
+    "nome": "Vendedor 3",
+    "quantidade_pecas": 4.00,
+    "quantidade_vendas": 3,
+    "valor_vendas": 273.60
+  },
+  {
+    "data": "03/01/2020",
+    "codigo": 41609,
+    "cpf": "03695928913",
+    "nome": "Vendedor 4",
+    "quantidade_pecas": 2.00,
+    "quantidade_vendas": 2,
+    "valor_vendas": 114.80
+  },
+  {
+    "data": "03/01/2020",
+    "codigo": 41761,
+    "cpf": "10258339969",
+    "nome": "Vendedor 5",
+    "quantidade_pecas": 8.00,
+    "quantidade_vendas": 3,
+    "valor_vendas": 439.20
+  },
+  {
+    "data": "04/01/2020",
+    "codigo": 30903,
+    "cpf": "06556384909",
+    "nome": "Vendedor 1",
+    "quantidade_pecas": 10.00,
+    "quantidade_vendas": 5,
+    "valor_vendas": 669.52
+  },
+  {
+    "data": "04/01/2020",
+    "codigo": 39894,
+    "cpf": "00703571966",
+    "nome": "Vendedor 2",
+    "quantidade_pecas": 6.00,
+    "quantidade_vendas": 3,
+    "valor_vendas": 331.16
+  },
+  {
+    "data": "04/01/2020",
+    "codigo": 40173,
+    "cpf": "09862403977",
+    "nome": "Vendedor 3",
+    "quantidade_pecas": 4.00,
+    "quantidade_vendas": 2,
+    "valor_vendas": 248.60
+  },
+  {
+    "data": "04/01/2020",
+    "codigo": 41609,
+    "cpf": "03695928913",
+    "nome": "Vendedor 4",
+    "quantidade_pecas": 6.00,
+    "quantidade_vendas": 1,
+    "valor_vendas": 209.03
+  },
+  {
+    "data": "04/01/2020",
+    "codigo": 41761,
+    "cpf": "10258339969",
+    "nome": "Vendedor 5",
+    "quantidade_pecas": 12.00,
+    "quantidade_vendas": 3,
+    "valor_vendas": 571.40
+  },
+  {
+    "data": "06/01/2020",
+    "codigo": 30903,
+    "cpf": "06556384909",
+    "nome": "Vendedor 1",
+    "quantidade_pecas": 5.00,
+    "quantidade_vendas": 4,
+    "valor_vendas": 411.71
+  },
+  {
+    "data": "06/01/2020",
+    "codigo": 39894,
+    "cpf": "00703571966",
+    "nome": "Vendedor 2",
+    "quantidade_pecas": 4.00,
+    "quantidade_vendas": 3,
+    "valor_vendas": 194.60
+  },
+  {
+    "data": "06/01/2020",
+    "codigo": 40173,
+    "cpf": "09862403977",
+    "nome": "Vendedor 3",
+    "quantidade_pecas": 5.00,
+    "quantidade_vendas": 2,
+    "valor_vendas": 272.30
+  },
+  {
+    "data": "06/01/2020",
+    "codigo": 41609,
+    "cpf": "03695928913",
+    "nome": "Vendedor 4",
+    "quantidade_pecas": 10.00,
+    "quantidade_vendas": 2,
+    "valor_vendas": 582.53
+  },
+  {
+    "data": "06/01/2020",
+    "codigo": 41761,
+    "cpf": "10258339969",
+    "nome": "Vendedor 5",
+    "quantidade_pecas": 2.00,
+    "quantidade_vendas": 1,
+    "valor_vendas": 234.80
+  },
+  {
+    "data": "07/01/2020",
+    "codigo": 30903,
+    "cpf": "06556384909",
+    "nome": "Vendedor 1",
+    "quantidade_pecas": 2.00,
+    "quantidade_vendas": 2,
+    "valor_vendas": 124.85
+  },
+  {
+    "data": "07/01/2020",
+    "codigo": 39894,
+    "cpf": "00703571966",
+    "nome": "Vendedor 2",
+    "quantidade_pecas": 9.00,
+    "quantidade_vendas": 3,
+    "valor_vendas": 491.50
+  },
+  {
+    "data": "07/01/2020",
+    "codigo": 41609,
+    "cpf": "03695928913",
+    "nome": "Vendedor 4",
+    "quantidade_pecas": 3.00,
+    "quantidade_vendas": 1,
+    "valor_vendas": 313.00
+  },
+  {
+    "data": "08/01/2020",
+    "codigo": 30903,
+    "cpf": "06556384909",
+    "nome": "Vendedor 1",
+    "quantidade_pecas": 3.00,
+    "quantidade_vendas": 2,
+    "valor_vendas": 211.23
+  },
+  {
+    "data": "08/01/2020",
+    "codigo": 39894,
+    "cpf": "00703571966",
+    "nome": "Vendedor 2",
+    "quantidade_pecas": 12.00,
+    "quantidade_vendas": 7,
+    "valor_vendas": 634.81
+  },
+  {
+    "data": "08/01/2020",
+    "codigo": 40173,
+    "cpf": "09862403977",
+    "nome": "Vendedor 3",
+    "quantidade_pecas": 8.00,
+    "quantidade_vendas": 4,
+    "valor_vendas": 540.20
+  },
+  {
+    "data": "08/01/2020",
+    "codigo": 41609,
+    "cpf": "03695928913",
+    "nome": "Vendedor 4",
+    "quantidade_pecas": 16.00,
+    "quantidade_vendas": 1,
+    "valor_vendas": 965.04
+  },
+  {
+    "data": "08/01/2020",
+    "codigo": 41761,
+    "cpf": "10258339969",
+    "nome": "Vendedor 5",
+    "quantidade_pecas": 10.00,
+    "quantidade_vendas": 5,
+    "valor_vendas": 611.10
+  },
+  {
+    "data": "09/01/2020",
+    "codigo": 30903,
+    "cpf": "06556384909",
+    "nome": "Vendedor 1",
+    "quantidade_pecas": 4.00,
+    "quantidade_vendas": 2,
+    "valor_vendas": 140.60
+  },
+  {
+    "data": "09/01/2020",
+    "codigo": 39894,
+    "cpf": "00703571966",
+    "nome": "Vendedor 2",
+    "quantidade_pecas": 8.00,
+    "quantidade_vendas": 2,
+    "valor_vendas": 245.38
+  },
+  {
+    "data": "09/01/2020",
+    "codigo": 40173,
+    "cpf": "09862403977",
+    "nome": "Vendedor 3",
+    "quantidade_pecas": 10.00,
+    "quantidade_vendas": 5,
+    "valor_vendas": 335.83
+  },
+  {
+    "data": "09/01/2020",
+    "codigo": 41609,
+    "cpf": "03695928913",
+    "nome": "Vendedor 4",
+    "quantidade_pecas": 10.00,
+    "quantidade_vendas": 1,
+    "valor_vendas": 536.40
+  },
+  {
+    "data": "09/01/2020",
+    "codigo": 41761,
+    "cpf": "10258339969",
+    "nome": "Vendedor 5",
+    "quantidade_pecas": 6.00,
+    "quantidade_vendas": 3,
+    "valor_vendas": 297.40
+  },
+  {
+    "data": "10/01/2020",
+    "codigo": 30287,
+    "cpf": null,
+    "nome": "Caixa",
+    "quantidade_pecas": 1.00,
+    "quantidade_vendas": 1,
+    "valor_vendas": 49.90
+  },
+  {
+    "data": "10/01/2020",
+    "codigo": 30903,
+    "cpf": "06556384909",
+    "nome": "Vendedor 1",
+    "quantidade_pecas": 5.00,
+    "quantidade_vendas": 4,
+    "valor_vendas": 296.87
+  },
+  {
+    "data": "10/01/2020",
+    "codigo": 39894,
+    "cpf": "00703571966",
+    "nome": "Vendedor 2",
+    "quantidade_pecas": 4.00,
+    "quantidade_vendas": 2,
+    "valor_vendas": 205.16
+  },
+  {
+    "data": "10/01/2020",
+    "codigo": 40173,
+    "cpf": "09862403977",
+    "nome": "Vendedor 3",
+    "quantidade_pecas": 1.00,
+    "quantidade_vendas": 1,
+    "valor_vendas": 53.91
+  },
+  {
+    "data": "10/01/2020",
+    "codigo": 41609,
+    "cpf": "03695928913",
+    "nome": "Vendedor 4",
+    "quantidade_pecas": 3.00,
+    "quantidade_vendas": 2,
+    "valor_vendas": 143.00
+  },
+  {
+    "data": "10/01/2020",
+    "codigo": 41761,
+    "cpf": "10258339969",
+    "nome": "Vendedor 5",
+    "quantidade_pecas": 1.00,
+    "quantidade_vendas": 1,
+    "valor_vendas": 39.90
+  },
+  {
+    "data": "11/01/2020",
+    "codigo": 30903,
+    "cpf": "06556384909",
+    "nome": "Vendedor 1",
+    "quantidade_pecas": 19.00,
+    "quantidade_vendas": 8,
+    "valor_vendas": 1229.10
+  },
+  {
+    "data": "11/01/2020",
+    "codigo": 39894,
+    "cpf": "00703571966",
+    "nome": "Vendedor 2",
+    "quantidade_pecas": 14.00,
+    "quantidade_vendas": 4,
+    "valor_vendas": 629.92
+  },
+  {
+    "data": "11/01/2020",
+    "codigo": 40173,
+    "cpf": "09862403977",
+    "nome": "Vendedor 3",
+    "quantidade_pecas": 20.00,
+    "quantidade_vendas": 4,
+    "valor_vendas": 738.03
+  },
+  {
+    "data": "11/01/2020",
+    "codigo": 41609,
+    "cpf": "03695928913",
+    "nome": "Vendedor 4",
+    "quantidade_pecas": 6.00,
+    "quantidade_vendas": 3,
+    "valor_vendas": 180.05
+  },
+  {
+    "data": "11/01/2020",
+    "codigo": 41761,
+    "cpf": "10258339969",
+    "nome": "Vendedor 5",
+    "quantidade_pecas": 12.00,
+    "quantidade_vendas": 5,
+    "valor_vendas": 595.30
+  },
+  {
+    "data": "13/01/2020",
+    "codigo": 30903,
+    "cpf": "06556384909",
+    "nome": "Vendedor 1",
+    "quantidade_pecas": 12.00,
+    "quantidade_vendas": 4,
+    "valor_vendas": 641.40
+  },
+  {
+    "data": "13/01/2020",
+    "codigo": 39894,
+    "cpf": "00703571966",
+    "nome": "Vendedor 2",
+    "quantidade_pecas": 4.00,
+    "quantidade_vendas": 3,
+    "valor_vendas": 319.60
+  },
+  {
+    "data": "13/01/2020",
+    "codigo": 40173,
+    "cpf": "09862403977",
+    "nome": "Vendedor 3",
+    "quantidade_pecas": 13.00,
+    "quantidade_vendas": 4,
+    "valor_vendas": 503.46
+  },
+  {
+    "data": "13/01/2020",
+    "codigo": 41761,
+    "cpf": "10258339969",
+    "nome": "Vendedor 5",
+    "quantidade_pecas": 16.00,
+    "quantidade_vendas": 2,
+    "valor_vendas": 620.04
+  },
+  {
+    "data": "14/01/2020",
+    "codigo": 30903,
+    "cpf": "06556384909",
+    "nome": "Vendedor 1",
+    "quantidade_pecas": 10.00,
+    "quantidade_vendas": 2,
+    "valor_vendas": 470.37
+  },
+  {
+    "data": "14/01/2020",
+    "codigo": 39894,
+    "cpf": "00703571966",
+    "nome": "Vendedor 2",
+    "quantidade_pecas": 15.00,
+    "quantidade_vendas": 4,
+    "valor_vendas": 816.89
+  },
+  {
+    "data": "14/01/2020",
+    "codigo": 40173,
+    "cpf": "09862403977",
+    "nome": "Vendedor 3",
+    "quantidade_pecas": 9.00,
+    "quantidade_vendas": 2,
+    "valor_vendas": 357.23
+  },
+  {
+    "data": "14/01/2020",
+    "codigo": 41609,
+    "cpf": "03695928913",
+    "nome": "Vendedor 4",
+    "quantidade_pecas": 1.00,
+    "quantidade_vendas": 1,
+    "valor_vendas": 39.90
+  },
+  {
+    "data": "14/01/2020",
+    "codigo": 41761,
+    "cpf": "10258339969",
+    "nome": "Vendedor 5",
+    "quantidade_pecas": 0.00,
+    "quantidade_vendas": 0,
+    "valor_vendas": 0.00
+  },
+  {
+    "data": "15/01/2020",
+    "codigo": 30903,
+    "cpf": "06556384909",
+    "nome": "Vendedor 1",
+    "quantidade_pecas": 5.00,
+    "quantidade_vendas": 3,
+    "valor_vendas": 111.50
+  },
+  {
+    "data": "15/01/2020",
+    "codigo": 39894,
+    "cpf": "00703571966",
+    "nome": "Vendedor 2",
+    "quantidade_pecas": 12.00,
+    "quantidade_vendas": 4,
+    "valor_vendas": 610.02
+  },
+  {
+    "data": "15/01/2020",
+    "codigo": 40173,
+    "cpf": "09862403977",
+    "nome": "Vendedor 3",
+    "quantidade_pecas": 1.00,
+    "quantidade_vendas": 1,
+    "valor_vendas": 53.91
+  },
+  {
+    "data": "15/01/2020",
+    "codigo": 41609,
+    "cpf": "03695928913",
+    "nome": "Vendedor 4",
+    "quantidade_pecas": 4.00,
+    "quantidade_vendas": 3,
+    "valor_vendas": 169.91
+  },
+  {
+    "data": "15/01/2020",
+    "codigo": 41761,
+    "cpf": "10258339969",
+    "nome": "Vendedor 5",
+    "quantidade_pecas": 8.00,
+    "quantidade_vendas": 1,
+    "valor_vendas": 331.94
+  },
+  {
+    "data": "16/01/2020",
+    "codigo": 30903,
+    "cpf": "06556384909",
+    "nome": "Vendedor 1",
+    "quantidade_pecas": 3.00,
+    "quantidade_vendas": 2,
+    "valor_vendas": 205.71
+  },
+  {
+    "data": "16/01/2020",
+    "codigo": 39894,
+    "cpf": "00703571966",
+    "nome": "Vendedor 2",
+    "quantidade_pecas": 4.00,
+    "quantidade_vendas": 3,
+    "valor_vendas": 317.11
+  },
+  {
+    "data": "16/01/2020",
+    "codigo": 40173,
+    "cpf": "09862403977",
+    "nome": "Vendedor 3",
+    "quantidade_pecas": 1.00,
+    "quantidade_vendas": 1,
+    "valor_vendas": 35.00
+  },
+  {
+    "data": "16/01/2020",
+    "codigo": 41609,
+    "cpf": "03695928913",
+    "nome": "Vendedor 4",
+    "quantidade_pecas": 1.00,
+    "quantidade_vendas": 1,
+    "valor_vendas": 44.91
+  },
+  {
+    "data": "17/01/2020",
+    "codigo": 30903,
+    "cpf": "06556384909",
+    "nome": "Vendedor 1",
+    "quantidade_pecas": 1.00,
+    "quantidade_vendas": 1,
+    "valor_vendas": 69.90
+  },
+  {
+    "data": "17/01/2020",
+    "codigo": 39894,
+    "cpf": "00703571966",
+    "nome": "Vendedor 2",
+    "quantidade_pecas": 6.00,
+    "quantidade_vendas": 4,
+    "valor_vendas": 379.44
+  },
+  {
+    "data": "17/01/2020",
+    "codigo": 40173,
+    "cpf": "09862403977",
+    "nome": "Vendedor 3",
+    "quantidade_pecas": 19.00,
+    "quantidade_vendas": 3,
+    "valor_vendas": 830.57
+  },
+  {
+    "data": "17/01/2020",
+    "codigo": 41609,
+    "cpf": "03695928913",
+    "nome": "Vendedor 4",
+    "quantidade_pecas": 8.00,
+    "quantidade_vendas": 6,
+    "valor_vendas": 521.03
+  },
+  {
+    "data": "17/01/2020",
+    "codigo": 41761,
+    "cpf": "10258339969",
+    "nome": "Vendedor 5",
+    "quantidade_pecas": 11.00,
+    "quantidade_vendas": 3,
+    "valor_vendas": 647.10
+  },
+  {
+    "data": "18/01/2020",
+    "codigo": 30903,
+    "cpf": "06556384909",
+    "nome": "Vendedor 1",
+    "quantidade_pecas": 4.00,
+    "quantidade_vendas": 3,
+    "valor_vendas": 249.80
+  },
+  {
+    "data": "18/01/2020",
+    "codigo": 39894,
+    "cpf": "00703571966",
+    "nome": "Vendedor 2",
+    "quantidade_pecas": 4.00,
+    "quantidade_vendas": 3,
+    "valor_vendas": 261.91
+  },
+  {
+    "data": "18/01/2020",
+    "codigo": 40173,
+    "cpf": "09862403977",
+    "nome": "Vendedor 3",
+    "quantidade_pecas": 3.00,
+    "quantidade_vendas": 1,
+    "valor_vendas": 199.21
+  },
+  {
+    "data": "18/01/2020",
+    "codigo": 41609,
+    "cpf": "03695928913",
+    "nome": "Vendedor 4",
+    "quantidade_pecas": 1.00,
+    "quantidade_vendas": 1,
+    "valor_vendas": 56.00
+  },
+  {
+    "data": "18/01/2020",
+    "codigo": 41761,
+    "cpf": "10258339969",
+    "nome": "Vendedor 5",
+    "quantidade_pecas": 3.00,
+    "quantidade_vendas": 2,
+    "valor_vendas": 138.21
+  },
+  {
+    "data": "20/01/2020",
+    "codigo": 30903,
+    "cpf": "06556384909",
+    "nome": "Vendedor 1",
+    "quantidade_pecas": 17.00,
+    "quantidade_vendas": 5,
+    "valor_vendas": 779.63
+  },
+  {
+    "data": "20/01/2020",
+    "codigo": 39894,
+    "cpf": "00703571966",
+    "nome": "Vendedor 2",
+    "quantidade_pecas": 1.00,
+    "quantidade_vendas": 1,
+    "valor_vendas": 100.00
+  },
+  {
+    "data": "20/01/2020",
+    "codigo": 40173,
+    "cpf": "09862403977",
+    "nome": "Vendedor 3",
+    "quantidade_pecas": 2.00,
+    "quantidade_vendas": 1,
+    "valor_vendas": 124.56
+  },
+  {
+    "data": "20/01/2020",
+    "codigo": 41609,
+    "cpf": "03695928913",
+    "nome": "Vendedor 4",
+    "quantidade_pecas": 1.00,
+    "quantidade_vendas": 1,
+    "valor_vendas": 113.94
+  },
+  {
+    "data": "21/01/2020",
+    "codigo": 30903,
+    "cpf": "06556384909",
+    "nome": "Vendedor 1",
+    "quantidade_pecas": 12.00,
+    "quantidade_vendas": 4,
+    "valor_vendas": 644.70
+  },
+  {
+    "data": "21/01/2020",
+    "codigo": 39894,
+    "cpf": "00703571966",
+    "nome": "Vendedor 2",
+    "quantidade_pecas": 1.00,
+    "quantidade_vendas": 1,
+    "valor_vendas": 99.90
+  },
+  {
+    "data": "21/01/2020",
+    "codigo": 40173,
+    "cpf": "09862403977",
+    "nome": "Vendedor 3",
+    "quantidade_pecas": 12.00,
+    "quantidade_vendas": 3,
+    "valor_vendas": 337.92
+  },
+  {
+    "data": "21/01/2020",
+    "codigo": 41609,
+    "cpf": "03695928913",
+    "nome": "Vendedor 4",
+    "quantidade_pecas": 1.00,
+    "quantidade_vendas": 1,
+    "valor_vendas": 85.41
+  },
+  {
+    "data": "21/01/2020",
+    "codigo": 41761,
+    "cpf": "10258339969",
+    "nome": "Vendedor 5",
+    "quantidade_pecas": 5.00,
+    "quantidade_vendas": 2,
+    "valor_vendas": 360.54
+  },
+  {
+    "data": "22/01/2020",
+    "codigo": 30903,
+    "cpf": "06556384909",
+    "nome": "Vendedor 1",
+    "quantidade_pecas": 9.00,
+    "quantidade_vendas": 3,
+    "valor_vendas": 513.36
+  },
+  {
+    "data": "22/01/2020",
+    "codigo": 39894,
+    "cpf": "00703571966",
+    "nome": "Vendedor 2",
+    "quantidade_pecas": 6.00,
+    "quantidade_vendas": 2,
+    "valor_vendas": 224.60
+  },
+  {
+    "data": "22/01/2020",
+    "codigo": 40173,
+    "cpf": "09862403977",
+    "nome": "Vendedor 3",
+    "quantidade_pecas": 4.00,
+    "quantidade_vendas": 2,
+    "valor_vendas": 142.66
+  },
+  {
+    "data": "22/01/2020",
+    "codigo": 41609,
+    "cpf": "03695928913",
+    "nome": "Vendedor 4",
+    "quantidade_pecas": 8.00,
+    "quantidade_vendas": 3,
+    "valor_vendas": 712.22
+  },
+  {
+    "data": "22/01/2020",
+    "codigo": 41761,
+    "cpf": "10258339969",
+    "nome": "Vendedor 5",
+    "quantidade_pecas": 25.00,
+    "quantidade_vendas": 4,
+    "valor_vendas": 1080.24
+  },
+  {
+    "data": "23/01/2020",
+    "codigo": 30903,
+    "cpf": "06556384909",
+    "nome": "Vendedor 1",
+    "quantidade_pecas": 14.00,
+    "quantidade_vendas": 5,
+    "valor_vendas": 627.14
+  },
+  {
+    "data": "23/01/2020",
+    "codigo": 39894,
+    "cpf": "00703571966",
+    "nome": "Vendedor 2",
+    "quantidade_pecas": 13.00,
+    "quantidade_vendas": 4,
+    "valor_vendas": 479.51
+  },
+  {
+    "data": "23/01/2020",
+    "codigo": 40173,
+    "cpf": "09862403977",
+    "nome": "Vendedor 3",
+    "quantidade_pecas": 1.00,
+    "quantidade_vendas": 1,
+    "valor_vendas": 62.91
+  },
+  {
+    "data": "23/01/2020",
+    "codigo": 41609,
+    "cpf": "03695928913",
+    "nome": "Vendedor 4",
+    "quantidade_pecas": 10.00,
+    "quantidade_vendas": 3,
+    "valor_vendas": 511.16
+  },
+  {
+    "data": "23/01/2020",
+    "codigo": 41761,
+    "cpf": "10258339969",
+    "nome": "Vendedor 5",
+    "quantidade_pecas": 3.00,
+    "quantidade_vendas": 2,
+    "valor_vendas": 163.02
+  },
+  {
+    "data": "24/01/2020",
+    "codigo": 39894,
+    "cpf": "00703571966",
+    "nome": "Vendedor 2",
+    "quantidade_pecas": 5.00,
+    "quantidade_vendas": 2,
+    "valor_vendas": 203.67
+  },
+  {
+    "data": "24/01/2020",
+    "codigo": 40173,
+    "cpf": "09862403977",
+    "nome": "Vendedor 3",
+    "quantidade_pecas": 5.00,
+    "quantidade_vendas": 1,
+    "valor_vendas": 195.56
+  },
+  {
+    "data": "24/01/2020",
+    "codigo": 41609,
+    "cpf": "03695928913",
+    "nome": "Vendedor 4",
+    "quantidade_pecas": 2.00,
+    "quantidade_vendas": 1,
+    "valor_vendas": 159.80
+  },
+  {
+    "data": "24/01/2020",
+    "codigo": 41761,
+    "cpf": "10258339969",
+    "nome": "Vendedor 5",
+    "quantidade_pecas": 2.00,
+    "quantidade_vendas": 1,
+    "valor_vendas": 92.88
+  },
+  {
+    "data": "25/01/2020",
+    "codigo": 30903,
+    "cpf": "06556384909",
+    "nome": "Vendedor 1",
+    "quantidade_pecas": 4.00,
+    "quantidade_vendas": 3,
+    "valor_vendas": 209.60
+  },
+  {
+    "data": "25/01/2020",
+    "codigo": 39894,
+    "cpf": "00703571966",
+    "nome": "Vendedor 2",
+    "quantidade_pecas": 3.00,
+    "quantidade_vendas": 3,
+    "valor_vendas": 223.71
+  },
+  {
+    "data": "25/01/2020",
+    "codigo": 40173,
+    "cpf": "09862403977",
+    "nome": "Vendedor 3",
+    "quantidade_pecas": 14.00,
+    "quantidade_vendas": 1,
+    "valor_vendas": 492.80
+  },
+  {
+    "data": "25/01/2020",
+    "codigo": 41609,
+    "cpf": "03695928913",
+    "nome": "Vendedor 4",
+    "quantidade_pecas": 1.00,
+    "quantidade_vendas": 1,
+    "valor_vendas": 53.91
+  },
+  {
+    "data": "25/01/2020",
+    "codigo": 41761,
+    "cpf": "10258339969",
+    "nome": "Vendedor 5",
+    "quantidade_pecas": 14.00,
+    "quantidade_vendas": 2,
+    "valor_vendas": 737.01
+  },
+  {
+    "data": "27/01/2020",
+    "codigo": 30903,
+    "cpf": "06556384909",
+    "nome": "Vendedor 1",
+    "quantidade_pecas": 4.00,
+    "quantidade_vendas": 2,
+    "valor_vendas": 286.69
+  },
+  {
+    "data": "27/01/2020",
+    "codigo": 39894,
+    "cpf": "00703571966",
+    "nome": "Vendedor 2",
+    "quantidade_pecas": 6.00,
+    "quantidade_vendas": 3,
+    "valor_vendas": 379.56
+  },
+  {
+    "data": "27/01/2020",
+    "codigo": 41761,
+    "cpf": "10258339969",
+    "nome": "Vendedor 5",
+    "quantidade_pecas": 1.00,
+    "quantidade_vendas": 1,
+    "valor_vendas": 59.90
+  },
+  {
+    "data": "28/01/2020",
+    "codigo": 30903,
+    "cpf": "06556384909",
+    "nome": "Vendedor 1",
+    "quantidade_pecas": 10.00,
+    "quantidade_vendas": 4,
+    "valor_vendas": 502.02
+  },
+  {
+    "data": "28/01/2020",
+    "codigo": 39894,
+    "cpf": "00703571966",
+    "nome": "Vendedor 2",
+    "quantidade_pecas": 4.00,
+    "quantidade_vendas": 1,
+    "valor_vendas": 170.76
+  },
+  {
+    "data": "28/01/2020",
+    "codigo": 40173,
+    "cpf": "09862403977",
+    "nome": "Vendedor 3",
+    "quantidade_pecas": 2.00,
+    "quantidade_vendas": 1,
+    "valor_vendas": 149.80
+  },
+  {
+    "data": "29/01/2020",
+    "codigo": 30903,
+    "cpf": "06556384909",
+    "nome": "Vendedor 1",
+    "quantidade_pecas": 2.00,
+    "quantidade_vendas": 1,
+    "valor_vendas": 167.84
+  },
+  {
+    "data": "29/01/2020",
+    "codigo": 39894,
+    "cpf": "00703571966",
+    "nome": "Vendedor 2",
+    "quantidade_pecas": 5.00,
+    "quantidade_vendas": 1,
+    "valor_vendas": 233.70
+  },
+  {
+    "data": "29/01/2020",
+    "codigo": 40173,
+    "cpf": "09862403977",
+    "nome": "Vendedor 3",
+    "quantidade_pecas": 14.00,
+    "quantidade_vendas": 4,
+    "valor_vendas": 469.31
+  },
+  {
+    "data": "29/01/2020",
+    "codigo": 41609,
+    "cpf": "03695928913",
+    "nome": "Vendedor 4",
+    "quantidade_pecas": 14.00,
+    "quantidade_vendas": 2,
+    "valor_vendas": 727.00
+  },
+  {
+    "data": "30/01/2020",
+    "codigo": 30903,
+    "cpf": "06556384909",
+    "nome": "Vendedor 1",
+    "quantidade_pecas": 1.00,
+    "quantidade_vendas": 1,
+    "valor_vendas": 49.90
+  },
+  {
+    "data": "30/01/2020",
+    "codigo": 39894,
+    "cpf": "00703571966",
+    "nome": "Vendedor 2",
+    "quantidade_pecas": 2.00,
+    "quantidade_vendas": 2,
+    "valor_vendas": 149.81
+  },
+  {
+    "data": "30/01/2020",
+    "codigo": 40173,
+    "cpf": "09862403977",
+    "nome": "Vendedor 3",
+    "quantidade_pecas": 4.00,
+    "quantidade_vendas": 1,
+    "valor_vendas": 167.76
+  },
+  {
+    "data": "30/01/2020",
+    "codigo": 41609,
+    "cpf": "03695928913",
+    "nome": "Vendedor 4",
+    "quantidade_pecas": 2.00,
+    "quantidade_vendas": 1,
+    "valor_vendas": 80.00
+  },
+  {
+    "data": "30/01/2020",
+    "codigo": 41761,
+    "cpf": "10258339969",
+    "nome": "Vendedor 5",
+    "quantidade_pecas": 1.00,
+    "quantidade_vendas": 1,
+    "valor_vendas": 69.90
+  },
+  {
+    "data": "31/01/2020",
+    "codigo": 30903,
+    "cpf": "06556384909",
+    "nome": "Vendedor 1",
+    "quantidade_pecas": 15.00,
+    "quantidade_vendas": 6,
+    "valor_vendas": 695.60
+  },
+  {
+    "data": "31/01/2020",
+    "codigo": 39894,
+    "cpf": "00703571966",
+    "nome": "Vendedor 2",
+    "quantidade_pecas": 10.00,
+    "quantidade_vendas": 2,
+    "valor_vendas": 331.80
+  },
+  {
+    "data": "31/01/2020",
+    "codigo": 40173,
+    "cpf": "09862403977",
+    "nome": "Vendedor 3",
+    "quantidade_pecas": 18.00,
+    "quantidade_vendas": 5,
+    "valor_vendas": 1105.88
+  },
+  {
+    "data": "31/01/2020",
+    "codigo": 41609,
+    "cpf": "03695928913",
+    "nome": "Vendedor 4",
+    "quantidade_pecas": 16.00,
+    "quantidade_vendas": 5,
+    "valor_vendas": 665.50
+  },
+  {
+    "data": "31/01/2020",
+    "codigo": 41761,
+    "cpf": "10258339969",
+    "nome": "Vendedor 5",
+    "quantidade_pecas": 8.00,
+    "quantidade_vendas": 4,
+    "valor_vendas": 302.29
+  }
+]
