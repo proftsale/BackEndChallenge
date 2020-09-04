@@ -1,0 +1,25 @@
+{
+  "name": "backendproftchallenge",
+  "version": "1.0.0",
+  "description": "Always forward",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugohvf/BackEndChallenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hugohvf/BackEndChallenge/issues"
+  },
+  "homepage": "https://github.com/hugohvf/BackEndChallenge#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
