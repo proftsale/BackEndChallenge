@@ -72,7 +72,8 @@ Exemplo:
 **GET** */v1/vendas/?inicio=2020-01-01&fim=2020-01-02
 
 Retorno:
-![Exemplo] (/aux/exemplo.png)
+
+![Exemplo](/aux/exemplo.png)
 
 ### Boas práticas desejáveis
 - Quebrar suas soluções em commits, conforme for avançando na resolução dos desafios. Para podermos acompanhar como seu desenvolvimento evolui.
