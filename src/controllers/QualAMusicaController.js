@@ -9,6 +9,12 @@ module.exports = {
 
     const [latitude, longitude] = localizacao.split(",");
 
+    regexGeolocation = /^[-+]?([1-8]?\d(\.\d+)?|90(\.0+)?),\s*[-+]?(180(\.0+)?|((1[0-7]\d)|([1-9]?\d))(\.\d+)?)$/;
+    if (!regexGeolocation.test(localizacao.toString())) {
+      response.status(400);
+      return response.json({ errorMessage: "Invalid geolocation format" });
+    }
+
     weatherApiKey = process.env.WEATHER_API_KEY;
     spotifyApiKey = process.env.SPOTIFY_API_KEY;
 
