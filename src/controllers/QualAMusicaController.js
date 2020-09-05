@@ -9,7 +9,6 @@ module.exports = {
 
     const [latitude, longitude] = localizacao.split(",");
 
-    // Store in env
     weatherApiKey = process.env.WEATHER_API_KEY;
     spotifyApiKey = process.env.SPOTIFY_API_KEY;
 
