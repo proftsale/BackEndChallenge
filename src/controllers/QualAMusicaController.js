@@ -47,7 +47,7 @@ module.exports = {
       )
       .then((response) => response.data.items)
       .catch((error) => response.json(error));
-    
+
     melhorMusica = musicasPlaylist[0].track;
 
     musicasPlaylist.map(({ track }, index) => {

@@ -52,7 +52,6 @@ module.exports = {
             ...vendasPorData,
             { other: other, sellers: [], date: venda.data },
           ];
-
       } else {
         if (hasCPF)
           vendasPorData[pos] = {
@@ -60,17 +59,26 @@ module.exports = {
             sellers: [...vendasPorData[pos].sellers, seller],
           };
         else {
-          vendasPorData[pos] = { ...vendasPorData[pos], other: {
-            sales: vendasPorData[pos].other.sales ? vendasPorData[pos].other.sales + other.sales : other.sales,
-            items: vendasPorData[pos].other.items ? vendasPorData[pos].other.items + other.items : other.items,
-            sold: vendasPorData[pos].other.sold ? vendasPorData[pos].other.sold + other.sold : other.sold
-          }};
+          vendasPorData[pos] = {
+            ...vendasPorData[pos],
+            other: {
+              sales: vendasPorData[pos].other.sales
+                ? vendasPorData[pos].other.sales + other.sales
+                : other.sales,
+              items: vendasPorData[pos].other.items
+                ? vendasPorData[pos].other.items + other.items
+                : other.items,
+              sold: vendasPorData[pos].other.sold
+                ? vendasPorData[pos].other.sold + other.sold
+                : other.sold,
+            },
+          };
         }
       }
     });
 
     successMessage = {
-      items: vendasPorData
+      items: vendasPorData,
     };
 
     return response.json(successMessage);
