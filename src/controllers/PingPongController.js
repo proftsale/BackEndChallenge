@@ -1,11 +1,9 @@
 module.exports = {
   async index(request, response) {
-
     successMessage = {
-        pong: true
-    }
+      pong: true,
+    };
 
     return response.json(successMessage);
   },
-
 };

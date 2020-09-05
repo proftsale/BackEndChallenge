@@ -4,11 +4,11 @@ module.exports = {
 
     tamanhoNumero = numero.length;
 
-    digitos = [...numero]
+    digitos = [...numero];
 
-    digitosElevados = digitos.map((num) => Math.pow(num, tamanhoNumero))
+    digitosElevados = digitos.map((num) => Math.pow(num, tamanhoNumero));
 
-    somaDigitos = digitosElevados.reduce((num1, num2) => num1 + num2)
+    somaDigitos = digitosElevados.reduce((num1, num2) => num1 + num2);
 
     isNarcisista = somaDigitos == numero;
 
