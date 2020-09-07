@@ -20,7 +20,8 @@
     "axios": "^0.20.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "qs": "^6.9.4"
   },
   "devDependencies": {
     "dotenv": "^8.2.0"

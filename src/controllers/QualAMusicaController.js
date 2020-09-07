@@ -1,7 +1,5 @@
 const axios = require("axios");
-const dotenv = require("dotenv");
-
-dotenv.config();
+const getTokenSpotify = require('../authorization/getTokenSpotify');
 
 module.exports = {
   async index(request, response) {
@@ -14,23 +12,22 @@ module.exports = {
         response.status(400);
         return response.json({ errorMessage: "Invalid geolocation format" });
       }
+      let weatherApiKey = process.env.WEATHER_API_KEY;
+      let spotifyApiKey = await getTokenSpotify();
 
-      weatherApiKey = process.env.WEATHER_API_KEY;
-      spotifyApiKey = process.env.SPOTIFY_API_KEY;
+      let weatherApiURL = `http://api.weatherstack.com/current?query=${latitude},${longitude}&access_key=${weatherApiKey}`;
 
-      weatherApiURL = `http://api.weatherstack.com/current?query=${latitude},${longitude}&access_key=${weatherApiKey}`;
-
-      temperature = await axios
+      let temperature = await axios
         .get(weatherApiURL)
         .then((response) => response.data.current.temperature)
-
+        
       if (temperature > 0 && temperature <= 15) categoria = "blues";
       else if (temperature > 15 && temperature <= 30) categoria = "pop";
       else if (temperature > 30) categoria = "edm_dance";
       else
         return response.json({ message: "Na Antártica não se escuta música" });
 
-      spotifyBaseApiURL = `https://api.spotify.com/v1/`;
+      let spotifyBaseApiURL = `https://api.spotify.com/v1/`;
 
       playlistHypada = await axios
         .get(spotifyBaseApiURL + `browse/categories/${categoria}/playlists`, {
@@ -39,7 +36,7 @@ module.exports = {
           },
         })
         .then((response) => response.data.playlists.items[0].id)
-
+      
       musicasPlaylist = await axios
         .get(
           spotifyBaseApiURL +
@@ -65,10 +62,10 @@ module.exports = {
 
       return response.json(successMessage);
     } catch (error) {
-      console.log(error);
+      console.log(error.message);
       if(error.message.includes("401"))
         error.message = "Atualize o token do spotify!";
-        
+
       return response.status(500).json({errorMessage: error.message});
     }
   },
