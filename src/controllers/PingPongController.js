@@ -1,9 +1,14 @@
 module.exports = {
   async index(request, response) {
-    successMessage = {
-      pong: true,
-    };
+    try {
+      successMessage = {
+        pong: true,
+      };
 
-    return response.json(successMessage);
+      return response.json(successMessage);
+    } catch (error) {
+      console.log(error);
+      return response.status(500).json(error.message);
+    }
   },
 };
