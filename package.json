@@ -59,6 +59,7 @@
     "morgan": "^1.9.1",
     "querymen": "^2.1.4",
     "request": "^2.88.2",
-    "request-promise": "^4.2.5"
+    "request-promise": "^4.2.5",
+    "spotify-web-api-node": "^5.0.0"
   }
 }
