@@ -1,6 +1,6 @@
 import { Router } from 'express'
 import { middleware as query } from 'querymen'
-import { ping, create, index, show, update, destroy } from './controller'
+import { narcissistic, ping, create, index, show, update, destroy } from './controller'
 
 const router = new Router()
 
@@ -15,6 +15,17 @@ const router = new Router()
  */
 router.get('/ping',
   ping)
+
+  /**
+ * @api {get} /v1 narcisista teste
+ * @apiName narcisistaTeste
+ * @apiGroup Teste
+ * @apiSuccess {Object} Pong (Bool).
+ * @apiError {Object} 400 Some parameters may contain invalid values.
+ * @apiError 404 Teste not found.
+ */
+router.get('/narcisista/:number',
+  narcissistic)
 
 //rotas do REST criadas pelo generator
 
