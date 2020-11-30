@@ -2,18 +2,15 @@ import {
   response
 } from "express";
 import request from "request";
+import fs from "fs";
 var SpotifyWebApi = require('spotify-web-api-node');
 
-export const ping = ({
-    body
-  }, res, next) =>
+export const ping = (req, res, next) =>
   res.status(200).json({
     pong: true
   })
 
-export const narcissistic = ({
-  params
-}, res, next) => {
+export const narcissistic = ({params}, res, next) => {
   /* não estou checando o type, só para deixar simples.
   sem o TS chegar tipo do param vai ficar bagunçado aqui no controller
   (especialmente pelo codigo estar no corpo desse controller geral.) */
@@ -31,9 +28,7 @@ export const narcissistic = ({
   let result = sum == nar
   res.status(200).json(result)
 }
-export const music = ({
-  params
-}, res, next) => {
+export const music = ({params}, res, next) => {
   let coordinates = params.coord.split(',')
   var spotifyResponseSong = {}
   request(
@@ -82,6 +77,81 @@ export const music = ({
             })
         })
     })
+}
+
+export const sales = ({query}, res, next)=>{
+  fs.readFile('./misc/dados.json', (err, data)=>{
+    if(err) res.status(500).json(err)
+    let sales = JSON.parse(data).filter(sale=>{
+      //?Foi mal, manipular data em js é um inferno sem o momentjs. ficou com péssima legibilidade.
+      let saleDate = new Date(sale.data.substr(6,4) + '-' + sale.data.substr(3,2) + '-' + sale.data.substr(0,2)).getTime(),
+        saleDateFrom = new Date(query.inicio).setHours(0,0,0,0),
+        saleDateTo = new Date(query.fim).setHours(23,59,59,999)
+      return (saleDate >= saleDateFrom && saleDate <= saleDateTo)
+    })
+
+
+
+    let items = []
+    const groupBy = key => array =>
+      array.reduce((objectsByKeyValue, obj) => {
+        const value = obj[key];
+        objectsByKeyValue[value] = (objectsByKeyValue[value] || []).concat(obj);
+        return objectsByKeyValue;
+      }, {});
+      let salesByDate = groupBy('data')
+      let groupedSalesByDate = salesByDate(sales)
+      for (const item in groupedSalesByDate) {
+        console.log(item);
+      }
+
+        // console.log(a,b,c);
+        /* let item = {}
+        item.other = {
+          sales: 0,
+           items:0,
+            sold: 0.0
+        }
+        item.sellers = []
+        if(el.cpf===null){
+          item.other.sales += Number(el.quantidade_vendas)
+          item.other.items += Number(el.quantidade_pecas)
+          item.other.sold += parseFloat(el.valor_vendas).toFixed(2)
+        } */
+      // })
+      
+    // let obj = {
+    //   items: [
+    //     {
+    //       other: {sales: 0,items: 0,sold: 0.0},
+    //       sellers: [],
+    //       date: null
+    //     }
+    //   ] 
+    // }
+    // for (const [i,sale] of sales.entries()) {
+    //   let saleObj = {}
+    //   // /* if(sale.cpf === null) {
+    //     saleObj.sales += Number(sale.quantidade_vendas)
+    //     saleObj.items += Number(sale.quantidade_pecas)
+    //     saleObj.sold += parseFloat(sale.valor_vendas)
+    //     obj.items[i].push(saleObj)
+    //   } else { */
+    //     // obj.items[i].sellers = {}
+    //     let item =  {}
+    //     item.cpf = sale.cpf
+    //     item.items = Number(sale.quantidade_pecas)
+    //     item.sales = Number(sale.quantidade_vendas)
+    //     item.sold = parseFloat(sale.valor_vendas).toFixed(2)
+    //     item.date = new Date(sale.data.substr(6,4) + '-' + sale.data.substr(3,2) + '-' + sale.data.substr(0,2)).toISOString()
+
+    //     console.log(item);
+        // obj.items.push(sellers[item])
+      // }
+      // obj.items.date = new Date(sale.data.substr(6,4) + '-' + sale.data.substr(3,2) + '-' + sale.data.substr(0,2)).toISOString()
+    // }
+    res.status(200).json('obj')
+  })
 }
 
 export const create = ({
