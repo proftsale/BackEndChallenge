@@ -89,10 +89,6 @@ export const sales = ({query}, res, next)=>{
         saleDateTo = new Date(query.fim).setHours(23,59,59,999)
       return (saleDate >= saleDateFrom && saleDate <= saleDateTo)
     })
-
-
-
-    let items = []
     const groupBy = key => array =>
       array.reduce((objectsByKeyValue, obj) => {
         const value = obj[key];
@@ -100,11 +96,61 @@ export const sales = ({query}, res, next)=>{
         return objectsByKeyValue;
       }, {});
       let salesByDate = groupBy('data')
-      let groupedSalesByDate = salesByDate(sales)
-      for (const item in groupedSalesByDate) {
-        console.log(item);
-      }
+      
+      let items = [{
+        other:{},
+        sellers:[],
+        data:''
+      }]
+    
+      sales.map(function(sale){
+        if (sale.cpf !== null) {
+          sale.sales = sale.quantidade_vendas
+          sale.items = sale.quantidade_pecas
+          sale.sold = parseFloat(sale.valor_vendas).toFixed(2)
+          // items[0].date = new Date(sale.data).toISOString()
+          //? não vejo necessidade de deletar mas aí vai:
+          delete sale.quantidade_vendas
+          delete sale.quantidade_pecas
+          delete sale.valor_vendas
+          // delete sale.data
+          delete sale.nome
+          delete sale.codigo
+        }else{
+          sale.sales = sale.quantidade_vendas
+          sale.items = sale.quantidade_pecas
+          sale.sold = parseFloat(sale.valor_vendas).toFixed(2)
+        }
+        // else items.other
+        return sale
+      })
 
+      const itemsByDate = salesByDate(sales)
+      // console.log(itemsByDate);
+      let sellersArr=[], otherArr=[]
+      for(const date in itemsByDate ) {
+        if(itemsByDate[date].cpf === null)
+        otherArr.push(itemsByDate[date]) 
+        else
+        sellersArr.push(itemsByDate[date])
+
+        
+      }
+      items.push({other: otherArr, sellers:sellersArr, date:'getDATA'})
+      // let sellers = sales
+     /*  sales.map(function(sale){
+        sale.sales = sale.quantidade_vendas
+        delete sale.quantidade_vendas
+        sale.items = sale.quantidade_pecas
+        delete sale.quantidade_pecas
+        sale.sold = parseFloat(sale.valor_vendas).toFixed(2)
+        delete sale.valor_vendas
+        //? não vejo necessidade de deletar mas aí vai:
+        delete sale.data
+        delete sale.nome
+        delete sale.codigo
+        return sale
+      }) */
         // console.log(a,b,c);
         /* let item = {}
         item.other = {
@@ -150,7 +196,7 @@ export const sales = ({query}, res, next)=>{
       // }
       // obj.items.date = new Date(sale.data.substr(6,4) + '-' + sale.data.substr(3,2) + '-' + sale.data.substr(0,2)).toISOString()
     // }
-    res.status(200).json('obj')
+    res.status(200).json(items)
   })
 }
 
