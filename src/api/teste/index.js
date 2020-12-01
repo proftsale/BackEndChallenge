@@ -47,7 +47,7 @@ router.get('/narcisista/:number', narcissistic)
  * @apiError {Object} 4xx Some parameters may contain invalid values.
  * @apiError 404 Teste not found.
  */
-router.get('/musica/:coordinates', music)
+router.get('/musica/:coord', music)
 /**
  * @api {get} /v1 sales  teste
  * @apiName sales Teste
