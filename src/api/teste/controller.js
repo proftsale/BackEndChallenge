@@ -97,29 +97,17 @@ export const sales = ({query}, res, next)=>{
       }, {});
       let salesByDate = groupBy('data')
       
-      let items = [{
-        other:{},
-        sellers:[],
-        data:''
-      }]
+      
     
-      sales.map(function(sale){
+      sales.map(sale=>{
         if (sale.cpf !== null) {
-          sale.sales = sale.quantidade_vendas
-          sale.items = sale.quantidade_pecas
-          sale.sold = parseFloat(sale.valor_vendas).toFixed(2)
-          // items[0].date = new Date(sale.data).toISOString()
-          //? não vejo necessidade de deletar mas aí vai:
-          delete sale.quantidade_vendas
-          delete sale.quantidade_pecas
-          delete sale.valor_vendas
-          // delete sale.data
-          delete sale.nome
-          delete sale.codigo
+          sale.sales = Number(sale.quantidade_vendas)
+          sale.items = Number(sale.quantidade_pecas)
+          sale.sold = parseFloat(sale.valor_vendas)
         }else{
-          sale.sales = sale.quantidade_vendas
-          sale.items = sale.quantidade_pecas
-          sale.sold = parseFloat(sale.valor_vendas).toFixed(2)
+          sale.sales = Number(sale.quantidade_vendas)
+          sale.items = Number(sale.quantidade_pecas)
+          sale.sold = parseFloat(sale.valor_vendas)
         }
         // else items.other
         return sale
@@ -127,23 +115,35 @@ export const sales = ({query}, res, next)=>{
 
       const itemsByDate = salesByDate(sales)
       // console.log(itemsByDate);
-      let sellersArr=[], otherArr=[]
+      let itemsArr=[]
       for(const date in itemsByDate ) {
-        if(itemsByDate[date].cpf === null)
-        otherArr.push(itemsByDate[date]) 
-        else
-        sellersArr.push(itemsByDate[date])
-
-        
+        let tmpObj = {other:{sales:0,items:0,sold:parseFloat(0.00)},sellers:[]}
+        tmpObj.date = new Date(date.substr(6,4) + '-' + date.substr(3,2) + '-' + date.substr(0,2)).toISOString()
+        itemsByDate[date].forEach(function (sale) {
+            if (sale.cpf != null)
+              tmpObj.sellers.push(sale);
+            else{
+              tmpObj.other.sales += Number(sale.sales)
+              tmpObj.other.items += Number(sale.items)
+              tmpObj.other.sold += parseFloat(sale.sold)
+              delete tmpObj.other.cpf
+            }
+            delete sale.data;
+            delete sale.quantidade_vendas
+            delete sale.quantidade_pecas
+            delete sale.valor_vendas
+            delete sale.nome
+            delete sale.codigo
+          });
+        itemsArr.push(tmpObj)
       }
-      items.push({other: otherArr, sellers:sellersArr, date:'getDATA'})
       // let sellers = sales
      /*  sales.map(function(sale){
         sale.sales = sale.quantidade_vendas
         delete sale.quantidade_vendas
         sale.items = sale.quantidade_pecas
         delete sale.quantidade_pecas
-        sale.sold = parseFloat(sale.valor_vendas).toFixed(2)
+        sale.sold = parseFloat(sale.valor_vendas)
         delete sale.valor_vendas
         //? não vejo necessidade de deletar mas aí vai:
         delete sale.data
@@ -162,7 +162,7 @@ export const sales = ({query}, res, next)=>{
         if(el.cpf===null){
           item.other.sales += Number(el.quantidade_vendas)
           item.other.items += Number(el.quantidade_pecas)
-          item.other.sold += parseFloat(el.valor_vendas).toFixed(2)
+          item.other.sold += parseFloat(el.valor_vendas)
         } */
       // })
       
@@ -188,7 +188,7 @@ export const sales = ({query}, res, next)=>{
     //     item.cpf = sale.cpf
     //     item.items = Number(sale.quantidade_pecas)
     //     item.sales = Number(sale.quantidade_vendas)
-    //     item.sold = parseFloat(sale.valor_vendas).toFixed(2)
+    //     item.sold = parseFloat(sale.valor_vendas)
     //     item.date = new Date(sale.data.substr(6,4) + '-' + sale.data.substr(3,2) + '-' + sale.data.substr(0,2)).toISOString()
 
     //     console.log(item);
@@ -196,7 +196,7 @@ export const sales = ({query}, res, next)=>{
       // }
       // obj.items.date = new Date(sale.data.substr(6,4) + '-' + sale.data.substr(3,2) + '-' + sale.data.substr(0,2)).toISOString()
     // }
-    res.status(200).json(items)
+    res.status(200).json({items:itemsArr})
   })
 }
 
